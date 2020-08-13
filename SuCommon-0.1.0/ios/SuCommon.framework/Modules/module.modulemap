@@ -1,0 +1,6 @@
+framework module SuCommon {
+  umbrella header "SuCommon.h"
+
+  export *
+  module * { export * }
+}
