@@ -7,6 +7,7 @@
 //
 
 #import "SUViewController.h"
+#import <SuCommon/SuCommon.h>
 
 @interface SUViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [SuCommon test];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
