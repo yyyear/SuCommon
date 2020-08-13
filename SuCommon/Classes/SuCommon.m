@@ -4,5 +4,7 @@
 #import "SuCommon.h"
 
 @implementation SuCommon
-
++ (void) test {
+    NSLog(@"---");
+}
 @end
