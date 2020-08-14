@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SuCommon'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = '共同库'
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,7 @@ TODO: Add long description of the pod here.
 
   
   s.ios.vendored_frameworks = 'SuCommon/Frameworks/*.framework'
+  s.libraries = 'z', 'sqlite3'
   # s.resource_bundles = {
   #   'SuCommon' => ['SuCommon/Assets/*.png']
   # }
