@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'SuCommon_Example' do
-#  pod 'SuCommon', :path => '../'
-  pod 'SuCommon', :git => 'https://github.com/yyyear/SuCommon.git'
+  pod 'SuCommon', :path => '../'
+#  pod 'SuCommon', :git => 'https://github.com/yyyear/SuCommon.git'
   
 end
