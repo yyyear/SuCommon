@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SuCommon'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = '共同库'
 
 # This description is used to generate tags and improve search results.
@@ -38,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'AdSupport', 'WebKit','Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

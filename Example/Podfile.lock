@@ -1,5 +1,5 @@
 PODS:
-  - SuCommon (0.1.6)
+  - SuCommon (0.1.7)
 
 DEPENDENCIES:
   - SuCommon (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SuCommon: f95e81ee39f06c9bb1ceb8e5c644cc19474d2b17
+  SuCommon: 4166f81a0d7a005005545577d2b2ff5e77a8b1d0
 
 PODFILE CHECKSUM: 7d59ff25760c347f34510d6e7f2d9ab3d5921e86
 
