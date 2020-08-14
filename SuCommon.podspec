@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   
-  s.ios.vendored_frameworks = 'SuCommon/Classes/*.framework'
+  s.ios.vendored_frameworks = 'SuCommon/Frameworks/*.framework'
   # s.resource_bundles = {
   #   'SuCommon' => ['SuCommon/Assets/*.png']
   # }

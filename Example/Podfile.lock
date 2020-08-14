@@ -1,27 +1,16 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - SuCommon (0.1.0)
+  - SuCommon (0.1.2)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - SuCommon (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   SuCommon:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SuCommon: eb2e7084e1e3ecb7bde6ca73c27a656258f2932f
+  SuCommon: 7c661bd66681c80009046016094ca0a1eed84b7a
 
-PODFILE CHECKSUM: 299a59bd4bb3e77e1f61966e38490dc32baded08
+PODFILE CHECKSUM: 7d59ff25760c347f34510d6e7f2d9ab3d5921e86
 
 COCOAPODS: 1.9.3
