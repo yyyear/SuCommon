@@ -1,16 +1,21 @@
 PODS:
-  - SuCommon (0.1.2)
+  - SuCommon (0.1.5)
 
 DEPENDENCIES:
-  - SuCommon (from `../`)
+  - SuCommon (from `https://github.com/yyyear/SuCommon.git`)
 
 EXTERNAL SOURCES:
   SuCommon:
-    :path: "../"
+    :git: https://github.com/yyyear/SuCommon.git
+
+CHECKOUT OPTIONS:
+  SuCommon:
+    :commit: 3552d74abd5533e6efee86731f6820869dad27b6
+    :git: https://github.com/yyyear/SuCommon.git
 
 SPEC CHECKSUMS:
-  SuCommon: 7c661bd66681c80009046016094ca0a1eed84b7a
+  SuCommon: 8917fec43f0819ae801c41809e8386b236778c6a
 
-PODFILE CHECKSUM: 7d59ff25760c347f34510d6e7f2d9ab3d5921e86
+PODFILE CHECKSUM: 583234ebf57da766fe9630d07146a4f299e1915d
 
 COCOAPODS: 1.9.3
